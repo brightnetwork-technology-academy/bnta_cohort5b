@@ -8,7 +8,7 @@
 
 ### 3. Use TODOs in the files and gifs from the README.md
 
-## Below are examples to expect when a task is delivered.
+## Below are examples of what to expect when a task is delivered.
 
 
 ### _1_on_double_click-button.html
