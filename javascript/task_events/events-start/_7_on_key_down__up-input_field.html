@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function color(color) {
+            document.forms[0].myInput.style.background = color;
+        }
+    </script>
+</head>
+
+<body>
+
+    <form>
+        Write a message:<br>
+        <!-- 
+            TODO Use onkeydown and onkeyup events to call the color function
+            onkeydown should change the background to red
+            onkeyup - should change the background to green
+        -->
+        <input type="text" onkeydown="color('red')" onkeyup="color('green')" name="myInput">
+    </form>
+    <p>While typing, when you press a key, the background colour changes to red, when you release the key - the colour changes to green.</p>
+
+</body>
+
+</html>

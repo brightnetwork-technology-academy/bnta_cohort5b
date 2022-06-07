@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function resizedImage(el) {
+            /* 
+                TODO change width and size of the element
+            */
+        }
+
+        function defaultImage(el) {
+            /* 
+                TODO change width and size of the element
+            */
+        }
+    </script>
+</head>
+
+<body>
+    <h2>JavaScript HTML Events - on mouse over, on mouse out</h2>
+    <!-- 
+            TODO 
+            - onmouseover: call resizedImage(el) function
+            - onmouseout: call defaultImage(this) function 
+     -->
+    <img onmouseover="resizedImage(this)" onmouseout="defaultImage(this)" src="./images/bright-logo.png" alt="Bright" width="300"
+        height="80">
+
+    <p>resizedImage() is triggered when the user moves the mouse pointer over the logo.</p>
+    <p>defaultImage() is triggered when the mouse pointer is moved out of the logo.</p>
+
+</body>
+
+</html>

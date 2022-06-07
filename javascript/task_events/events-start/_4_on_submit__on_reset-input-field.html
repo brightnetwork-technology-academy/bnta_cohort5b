@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function displayFirstName() {
+            firstName = document.forms[0].firstName.value;
+            alert("Hello " + firstName + "! Have you heard of The Spanish Inquisition?");
+        }
+
+        function displayResetMessage() {
+            /*
+            TODO
+            Show alert window with a message, e.g.
+            "This alert box was triggered by the onreset event handler"
+            */
+        }
+    </script>
+</head>
+
+<body>
+    <h2>JavaScript HTML Events</h2>
+
+    <h3>On submit</h3>
+    <!-- 
+        TODO 
+        - use onsubmit event to call displayFirstName()
+        - use onreset event to call displayResetMessage()
+     -->
+    <form onsubmit="displayFirstName()" action="https://en.wikipedia.org/wiki/The_Spanish_Inquisition_(Monty_Python)">
+        Enter your name: <input id="firstName" type="text" size="20">
+        <input type="submit">
+    </form>
+
+    <h3>On reset</h3>
+    <form onreset="displayResetMessage()">
+        Enter your name: <input type="text" size="20">
+        <input type="reset">
+    </form>
+
+
+</body>
+
+</html>

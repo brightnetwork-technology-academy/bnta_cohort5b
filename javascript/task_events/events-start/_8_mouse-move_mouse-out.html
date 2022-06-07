@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function displayCoordinates(event) {
+            /*
+                TODO implement the function:
+                - get x, get y
+                - diplay the values in coorvalues paragraph
+            */
+        }
+
+        function clearCoor() {
+            /*
+                TODO implement the function:
+                - clear coorvalues paragraph
+            */
+        }
+    </script>
+</head>
+
+<body>
+    <h2>JavaScript HTML Events - on mouse move, on mouse out</h2>
+    <div id="coordiv" style="width:600px; height:200px; border:1px solid" onmousemove="displayCoordinates(event)" onmouseout="clearCoor()">
+    </div>
+
+    <p>Mouse over the rectangle above, to display the coordinates of your mouse pointer.</p>
+
+    <p id="coorvalues"></p>
+
+</body>
+
+</html>
