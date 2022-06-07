@@ -1,0 +1,13 @@
+@media (min-width: 720px) {
+
+    aside{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

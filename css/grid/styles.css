@@ -1,0 +1,32 @@
+div{
+    /* height: 100px; */
+    border: 1px solid black;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header header header'
+        'sidebar main main'
+        'footer main main';
+}
+
+.header{
+    grid-area: header;
+    background-color: antiquewhite;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: darkkhaki;
+}
+
+.main{
+    grid-area: main;
+    background-color: dodgerblue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: hotpink;
+}

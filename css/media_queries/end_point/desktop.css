@@ -1,0 +1,25 @@
+@media (min-width: 1080px){
+
+    body > main {
+        display: grid;
+        grid-template-areas: 
+            'title title'
+            'posts navigation';
+        grid-template-columns: 8fr 2fr;
+    }
+
+    .title-section{
+        grid-area: title;
+    }
+
+    .posts{
+        grid-area: posts;
+    }
+
+    .navigation{
+        grid-area: navigation;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
