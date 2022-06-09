@@ -32,7 +32,7 @@ This afternoon lab may seem quite intimidating so we're going to first lay out a
 
 - **Step 4: Familiarisation of the Countries API**
 	- Have a look at API endpoint which returns all held information on all countries within their set: [https://restcountries.com/v3.1/all](https://restcountries.com/v3.1/all)
-	- This will be difficult to parse so let's install the Chrome JSON Formatter extension [https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related]()
+	- This will be difficult to parse so let's install the [Chrome JSON Formatter extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en).
 	- Refresh the endpoint page to see the output in a clearer format
 	- Familiarise yourself with the rough structure of the output
 	- Now, let's visit another endpoint [https://restcountries.com/v3.1/name/peru](https://restcountries.com/v3.1/name/peru)
