@@ -31,17 +31,17 @@ This afternoon lab may seem quite intimidating so we're going to first lay out a
 	- If the message doesn't appear, check that your files are saved and that the filepath in the `script` tag is correct
 
 - **Step 4: Familiarisation of the Countries API**
-	- Have a look at API endpoint which returns all held information on all countries within their set: [https://restcountries.com/v2/all]()
+	- Have a look at API endpoint which returns all held information on all countries within their set: [https://restcountries.com/v3.1/all](https://restcountries.com/v3.1/all)
 	- This will be difficult to parse so let's install the Chrome JSON Formatter extension [https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related]()
 	- Refresh the endpoint page to see the output in a clearer format
 	- Familiarise yourself with the rough structure of the output
-	- Now, let's visit another endpoint [https://restcountries.com/v2/name/peru]()
-	- Familiatise yourself with this structure and consider how this relates to the previous endpoint's output
+	- Now, let's visit another endpoint [https://restcountries.com/v3.1/name/peru](https://restcountries.com/v3.1/name/peru)
+	- Familiarise yourself with this structure and consider how this relates to the previous endpoint's output
 
 - **Step 5: Creating our `fetch()` request**
 	- In your JS file, create a function called `getCountryByName()`
 	- Give this function one argument, `countryName`
-	- Within the function place a `fetch()` request which points towards the `https://restcountries.com/v2/name/{countryName}` endpoint
+	- Within the function place a `fetch()` request which points towards the `https://restcountries.com/v3.1/name/{countryName}` endpoint
 	- Don't use the format above, rather use string interpolation to include the argument in your URL
 	- Following your `fetch()` request, put in a `.then()` which takes the `response` and puts it into JSON format (`response => response.json()`)
 	- Within one more `.then()` statement, print your response data to the console (`data => console.log(data)`)
@@ -71,7 +71,7 @@ From the set-up task above, we have our response from the Rest Countries API pri
 ## Extensions
 
 5. **Make your page header dynamic**, displaying whether data is still being fetched or has completed. This will be tied to your previously created methods. Again, this will likely involve `Element.innerHTML`
-6. **Make your header display whether an error has occurred** when fetching data (such as when an invalid country name is inputed)—see tip below
+6. **Make your header display whether an error has occurred** when fetching data (such as when an invalid country name is inputed) — see tip below
 7. **Extend your webpage to include some more information about the countries and some basic styling** (for instance, you could make use of the `flag` property which holds a URL to an image of the country's flag). This task can be considered complete when you have successfully added in some styling to your page via an external CSS file, and have included at least two more pieces of information about each country
 
 **Tips:**
