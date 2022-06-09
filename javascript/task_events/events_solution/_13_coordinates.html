@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function coordinates(event) {
+            document.getElementById("msg").innerHTML = `X = "${event.screenX}"<br>Y = "${event.screenY}"`;
+        }
+    </script>
+</head>
+
+<body>
+
+    <div onmousedown="coordinates(event)" style="background-color:royalblue; width:450px;height:200px;"></div>
+
+    <p>Click the above div, to display the x and y coordinates of the cursor.</p>
+
+    <p id="msg" style="font-size:5em;"></p>
+
+</body>
+
+</html>

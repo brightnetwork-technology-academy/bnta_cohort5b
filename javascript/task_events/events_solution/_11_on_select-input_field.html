@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function myFunction() {
+      document.getElementById("message").innerHTML = "A simple message :)";
+    }
+  </script>
+</head>
+
+<body>
+  <h2>JavaScript HTML Events - on select</h2>
+
+  <input type="text" value="Hello world!" onselect="myFunction(this)">
+  <p>When the text is selected, a simple message is displayed.</p>
+  <p id="message"></p>
+
+</body>
+
+</html>

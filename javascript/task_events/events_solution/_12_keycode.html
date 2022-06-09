@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function displayUnicode(event) {
+            let unicode = event.which;
+            document.getElementById("msg").innerHTML = unicode;
+        }
+    </script>
+
+</head>
+
+<body onkeypress="displayUnicode(event)">
+
+    <p>Click on this page, and press a key on your keyboard to display the keycode.</p>
+
+    <p id="msg" style="font-size:20em;"></p>
+
+</body>
+
+</html>
+
+
+<!-- 
+
+    TODO
+    Try to figure out how to achieve the desired effect as shown in the gif.
+
+ -->
