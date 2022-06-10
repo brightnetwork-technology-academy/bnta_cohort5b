@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to the Quiz!</h1>
+    <h2>Current Score: <span id="score-container">0</span></h2>
+    <button id="question-button">Get Next Question</button>
+    <p id="question"></p>
+    <form action="" id="player-guess">
+        <label for="guess">Select True/False:</label>
+        <select name="guess" id="guess">
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+        <input type="submit" value="Make Guess">
+    </form>
+    <div id="result-container"></div>
+</body>
+</html>
