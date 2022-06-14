@@ -30,14 +30,7 @@ const MemberContainer = () => {
 
     const [applicationsOpen, setApplicationsOpen] = useState(true);
 
-    const addNewMember = () => {
-
-        const newMember = {
-            name: "Cem",
-            email: "cem@brightnetwork.co.uk",
-            employeeNumber: 789
-        }
-
+    const addNewMember = (newMember) => {
         setMembers([...members, newMember]);
 
         console.log("added new member")
@@ -50,12 +43,12 @@ const MemberContainer = () => {
 
     return(
         <>
+            <NewMember addNewMember={addNewMember} />
             <MemberList listOfMembers={members}/>
             <Status 
                 applicationsOpen={applicationsOpen} 
                 handleButtonClick={updateApplicationStatus}
             />
-            <NewMember handleButtonClick={addNewMember}/>
         </>
     )
 
