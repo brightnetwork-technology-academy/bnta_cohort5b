@@ -1,0 +1,141 @@
+/* PAGE RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --primary-color: pink;
+    --secondary-color: red;
+}
+
+body {
+    background-image: url("./cupcakes.jpeg");
+}
+
+.overall__container {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 2rem;
+}
+
+
+
+/* HEADER */
+
+.header {
+    background-color: var(--primary-color);
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar::before {
+    content: "";
+    padding-left: 2rem;
+}
+
+.navbar__list {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar__item:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.navbar__item > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    display: inline-block;   
+}
+
+.search__label {
+    margin-right: 0.5rem;
+    font-size: 0.75rem;
+}
+
+
+
+/* RECIPES */
+
+.recipeList {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.recipeCardContainer {
+    display: flex;
+    /* gap: 2rem; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recipeCard {
+    width: 300px;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black 5px;
+}
+
+.recipeCard__title {
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+.recipeCard__ingredients {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.recipeCard__li {
+    font-style: italic;
+}
+
+
+
+/* NEW RECIPE FORM */
+
+.newCakeForm {
+    background-color: var(--primary-color);
+    flex-grow: 1;
+}
+
+.newCakeForm__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%
+}
+
+.newCakeForm__input {
+    padding: 0.4rem;
+}
+
+.newCakeForm__submit {
+    width: 50%;
+    margin: 0.8rem 0;
+    padding: 0.4rem;
+}
+
+.newCakeForm__label {
+    font-size: 0.75rem;
+    margin-top: 0.4rem;
+    font-weight: bold;
+}
