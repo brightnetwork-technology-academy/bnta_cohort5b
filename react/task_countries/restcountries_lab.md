@@ -33,7 +33,3 @@ It is up to you how you design and implement this feature. Because we have left 
 You may find that the use of a JSON formatter will help significantly when getting to grips with the data the API returns.
 
 *e.g.* [JSON formatter - JSON Pretty Print](https://jsonformatter.org/json-pretty-print)
-
-**Communication is key** so if you do work individually at any point then please do make sure to communicate with your team where it is you're working. Keeping regular contact will ensure that your project runs smoothly and bettering these skills of project management will set you up well for any future roles.
-
-The primary aim for this project is to afford you time to work on your **Front-end / React knowledge** ahead of the main Client-Side Project. Our secondary aim is for you to further add to your **online portfolio** which you can present within any future interview processes. With this, we suggest that you spend some time together as a team putting together a cohesive vision for your app. **Take some time to visually plan your app** before you jump into the code. We suggest using with Miro or Figma for creating a wireframe of your site but Microsoft Powerpoint (or equivalent) or simple pen and paper will work just as well at this stage.
