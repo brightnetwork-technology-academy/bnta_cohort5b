@@ -23,7 +23,7 @@ If you have any issues with the API your first point of contact should be the gr
 
 ## Project Management
 
-You should create a **public** GitHub repository **before you start writing any code** and post the link on the Discord submissions channel. It is up to you how to manage your branch structure, but we expect to see contributions from **every** member of the group. Make sure that the most up-to-date working version of your project is merged to the `main` branch ahead of your presentation.  
+You should create a **public** GitHub repository **before you start writing any code** and post the link on the class channel on Slack. It is up to you how to manage your branch structure, but we expect to see contributions from **every** member of the group. Make sure that the most up-to-date working version of your project is merged to the `main` branch ahead of your presentation.  
 
 We recommend using something like a [Kanban board](https://kanbanize.com/kanban-resources/getting-started/what-is-kanban-board) to help you manage your time. You can use a free service such as Trello or the built-in tools on GitHub, even something like Google Drive to facilitate collaboration.
 
